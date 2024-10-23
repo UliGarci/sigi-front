@@ -1,0 +1,154 @@
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #b92b27;
+    background: -webkit-linear-gradient(to left, #1565C0, #b92b27);
+    background: linear-gradient(to right, #0f4b90, #a02420);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 380px;
+    margin: 120px auto 0;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.column {
+    flex-basis: 50%;
+    /* Estilos adicionales para las columnas */
+}
+
+#left {
+    padding: 10px;
+}
+
+#rigth {
+    display: grid;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+}
+
+.btn {
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-color: rgb(42, 165, 33);
+    border-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-showpassword {
+    background-color: transparent;
+    padding: 5px;
+    border-color: transparent;
+    color: blue;
+}
+
+.input-email,
+.input-password {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgb(211, 211, 211);
+}
+
+.label-email {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.label-password {
+    margin-top: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.email-container {
+    margin-top: 30px;
+}
+
+.password-container {
+    margin-top: 30px;
+}
+
+
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura del 100% del viewport */
+  }
+  
+  .login-box {
+    display: flex;
+    background-color: white; /* Recuadro blanco */
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+  }

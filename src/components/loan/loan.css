@@ -1,0 +1,125 @@
+.modal-loan{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.modal-content-loan{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0,0, 0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 800px;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+  overflow-y: auto;
+}
+
+.btnreturn{
+    background-color: rgb(0, 102, 255);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btnbreak{
+    background-color: #d30202;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.modalclose{
+    background-color: brown;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.btnregister{
+    background-color: #1fa780;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Nunito';
+}
+
+.btnback{
+    color: #616161;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btnback:hover{
+    cursor: pointer;
+}
+
+.infoloan{
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btncheckloan{
+    font-size: 20px;
+    background-color: #616161;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.btncheckloan:hover{
+    cursor:pointer;
+}
+
+textarea{
+    font-family: 'Nunito';
+    font-size: 15px;
+}
+
+.table-wrapper {
+    max-height: 300px; /* Establece la altura máxima deseada */
+    overflow: auto; /* Habilita el desbordamiento con barra de desplazamiento */
+}
+
+.btnpdf{
+    background-color: #a8220e;
+    border-radius:15px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Nunito';
+}
+
+.btnpdf:hover{
+    cursor: pointer;
+}
+
+.btnselect{
+    padding: 10px;
+    border-radius: 50px;
+    border-color: transparent;
+    box-shadow: 0 2px 1px 1px rgba(255, 0, 0, 0.521);
+}
+
+select option {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+}
+
+.btndelivered{
+    background-color: transparent;
+}
+
+.btndeleteddelivered{
+    background-color: transparent;
+}
+.btndeleteddelivered:hover{
+    cursor: pointer;
+}
